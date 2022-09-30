@@ -6364,6 +6364,18 @@ a.close.disabled {
   background-color: #11C2EE !important;
 }
 
+.bg-MO {
+  background-color: #EE11EE !important;
+}
+
+.bg-MC {
+  background-color: #FF6600 !important;
+}
+
+.bg-E {
+  background-color: #6BE61A !important;
+}
+
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
