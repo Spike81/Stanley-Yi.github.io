@@ -6360,11 +6360,13 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
-.bg-primary {
-  background-color: #11C2EE !important;
+.bg-MO {
+  background-color: #EE11EE !important;
 }
 
-.bg-MO {
+a.bg-MO:hover, a.bg-MO:focus,
+button.bg-MO:hover,
+button.bg-MO:focus {
   background-color: #EE11EE !important;
 }
 
@@ -6374,6 +6376,10 @@ a.close.disabled {
 
 .bg-E {
   background-color: #6BE61A !important;
+}
+
+.bg-primary {
+  background-color: #11C2EE !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
