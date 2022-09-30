@@ -6364,12 +6364,6 @@ a.close.disabled {
   background-color: #EE11EE !important;
 }
 
-a.bg-MO:hover, a.bg-MO:focus,
-button.bg-MO:hover,
-button.bg-MO:focus {
-  background-color: #EE11EE !important;
-}
-
 .bg-MC {
   background-color: #FF6600 !important;
 }
