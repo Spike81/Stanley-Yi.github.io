@@ -83,6 +83,9 @@
         layoutMode: 'fitRows'
     });
 	
+	// https://stackoverflow.com/questions/24067068/isotope-js-reveal-hidden-items
+	// https://www.w3schools.com/howto/howto_js_read_more.asp
+	
 	// var items = portfolioIsotope.data('isotope').filteredItems;
 	
 	// var element = portfolioIsotope.data('isotope').getItemElements();  // or getFilteredItemElements()
