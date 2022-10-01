@@ -82,14 +82,37 @@
         itemSelector: '.portfolio-item',
         layoutMode: 'fitRows'
     });
+	
+	// var items = portfolioIsotope.data('isotope').filteredItems;
+	
+	// var element = portfolioIsotope.data('isotope').getItemElements();  // or getFilteredItemElements()
+	// if (element.length > 6) {
+	// 	for(var i=0; i<element.length; i++){
+	// 		if (i >= 6) {
+	// 			element[i].style.display = "none";
+	// 		}
+	// 	}
+	// }
+	
     $('#portfolio-flters li').on('click', function () {
         $("#portfolio-flters li").removeClass('active');
         $(this).addClass('active');
 
         portfolioIsotope.isotope({filter: $(this).data('filter')});
+		
+		// var items = portfolioIsotope.data('isotope').getItemElements();
+		// if (items.length > 6) {
+		// 	// alert(element.length);
+		// 	for(var i=0; i<items.length; i++){
+		// 		if (i >= 6) {
+		// 			element[i].style.display = "none";
+		// 		}
+		// 	}
+		// }
     });
+
     
-    
+	
     // Back to top button
     $(window).scroll(function () {
         if ($(this).scrollTop() > 200) {
