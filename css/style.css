@@ -555,6 +555,11 @@ mark,
   max-height: 30%;
 }
 
+.img-fluid-V-big {
+  max-width: 85%;
+  max-height: 85%;
+}
+
 .img-fluid-H {
   max-width: 50%;
   max-height: 50%;
