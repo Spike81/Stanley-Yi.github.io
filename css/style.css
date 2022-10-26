@@ -555,6 +555,16 @@ mark,
   max-height: 30%;
 }
 
+.img-fluid-V-2 {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.img-fluid-V-UCL {
+  max-width: 65%;
+  max-height: 65%;
+}
+
 .img-fluid-V-big {
   max-width: 85%;
   max-height: 85%;
@@ -801,6 +811,56 @@ pre code {
 .col-12 {
   flex: 0 0 100%;
   max-width: 100%;
+}
+
+
+.activity_box {
+     text-align: center;
+     background: #17a2b8;  //#0f83b0
+     margin-bottom: 30px;
+     margin-top: 116px;
+     padding: 0px 30px 30px 30px;
+}
+
+.activity_box:hover {
+     background: #4cc97e !important;
+}
+
+.activity_box i img {
+     margin-top: -116px;
+}
+
+.activity_box h2 {
+     font-family: 'Tahoma', serif;
+     font-size: 26px;
+     line-height: 30px;
+     font-weight: 501;
+     padding-top: 30px;
+     padding-bottom: 0;
+     color: #fff;
+     padding-bottom: 10px;
+}
+
+.activity_box h4 {
+     font-family: 'Tahoma', serif;
+     font-size: 20px;
+     line-height: 30px;
+     font-weight: 501;
+     padding-bottom: 0;
+     color: #fff;
+     padding-bottom: 10px;
+}
+
+.activity_box a {
+     color: #fff;
+     font-size: 17px;
+     line-height: 33px;
+}
+
+.activity_box p {
+     color: #fff;
+     font-size: 17px;
+     line-height: 33px;
 }
 
 .order-first {
