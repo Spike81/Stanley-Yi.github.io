@@ -6466,6 +6466,15 @@ a.close.disabled {
   background-color: #6BE61A !important;
 }
 
+.bg-PHP {
+  background-color: #aaaa7f !important;
+}
+
+.bg-JS {
+  background-color: #55aa7f !important;
+}
+
+
 .bg-primary {
   background-color: #11C2EE !important;
 }
